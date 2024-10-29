@@ -15,7 +15,7 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/alessio/shellescape"
+	"al.essio.dev/pkg/shellescape"
 	"github.com/derekstavis/go-qs"
 	"github.com/tidwall/gjson"
 	"github.com/ysmood/kit/pkg/utils"

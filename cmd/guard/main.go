@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
+	kingpin "github.com/alecthomas/kingpin/v2"
 	"github.com/ysmood/kit"
-	kingpin "gopkg.in/alecthomas/kingpin.v2"
 )
 
 type options struct {

@@ -7,10 +7,10 @@ import (
 	os_path "path/filepath"
 	"strings"
 
+	kingpin "github.com/alecthomas/kingpin/v2"
 	gos "github.com/ysmood/kit/pkg/os"
 	"github.com/ysmood/kit/pkg/utils"
 	"github.com/ysmood/lookpath"
-	kingpin "gopkg.in/alecthomas/kingpin.v2"
 )
 
 var goPathCache string
